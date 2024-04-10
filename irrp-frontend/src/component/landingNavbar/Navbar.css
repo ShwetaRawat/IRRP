@@ -1,0 +1,76 @@
+/* Navbar.css */
+/* font */
+.Navbar, .Navbar a, .Navbar button {
+    font-family: 'Inter', sans-serif; /* Apply the Inter font to all text within Navbar */
+    /* Other styles */
+}
+
+/* Set up the flex container for the entire navbar */
+.Navbar {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    justify-content: space-between; /* Distribute items evenly */
+    padding: 1rem; /* Add some padding for spacing */
+    margin: 12px 15px 12px 15px;
+}
+
+/* Style the logo */
+.logo  {
+    width: 130px; 
+    height: 50px;
+}
+.logo2 img {
+    width: 100px; 
+    height: 75px;
+}
+
+/* Style the navigation links */
+.navbar-items, .left {
+    display: flex;
+    gap: 75px; /* Add spacing between links */
+}
+
+.navbar-items a, .register {
+    
+    text-decoration: none;
+    
+}
+.navbar-items a{
+    color: #7a7a7a; /* Set link color */
+    font-weight: 100;
+    font-size: 12px;
+
+    
+}
+.navbar-items a:hover{
+    color: #1E4D0F; /* Set link color */
+    font-weight: 100;
+    font-size: 12px;
+
+    
+}
+.register
+{
+    color: #1E4D0F;
+    font-weight: bold;
+}
+
+
+
+/* Style the buttons */
+.login-button {
+    background-color: #45a049;
+    color: #fff;
+    border: none;
+    padding: 3px;
+    width: 76px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+
+}
+
+.login-button:hover {
+     /* Darker color on hover */
+    background-color: #1E4D0F;
+}
