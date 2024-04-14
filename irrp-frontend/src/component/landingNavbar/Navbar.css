@@ -9,7 +9,7 @@
 .Navbar {
     display: flex;
     align-items: center; /* Vertically center the items */
-    justify-content: space-between; /* Distribute items evenly */
+    justify-content: space-evenly; /* Distribute items evenly */
     padding: 1rem; /* Add some padding for spacing */
     margin: -13px 6px -3px 6px;
     /* background-color: #7a7a7a; */
@@ -39,8 +39,8 @@
     
 }
 .navbar-items a{
-    color: #7a7a7a; /* Set link color */
-    font-weight: 100;
+    color: #262626; /* Set link color */
+    /* font-weight: 100; */
     font-size: 12px;
 
     
