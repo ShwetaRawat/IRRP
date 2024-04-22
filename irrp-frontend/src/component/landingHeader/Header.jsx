@@ -1,6 +1,6 @@
 // Header.js
 import React from 'react';
-import './Header.css'; // Make sure to create a corresponding CSS file
+import './Header.css'; 
 import IGDTUW from '../images/IGDTUW.jpeg';
 
 

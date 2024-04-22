@@ -1,0 +1,45 @@
+/* styles.css */
+/* .Body, .heading, .awardee, .awardees-container, .body {
+    font-family: 'Inter', sans-serif; 
+    
+} */
+.heading {
+    margin: 25px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+ body {
+    font-family: Arial, sans-serif;
+} 
+
+.awardees-container {
+    text-align: center;
+}
+
+.awardee {
+    display: inline-block;
+    margin: 50px;
+    padding: 21px;
+    border: 2px solid #1E4D0F; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.awardee img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.awardee p {
+    margin-top: 10px;
+}
+
+
+.green-line {
+    width: 55%;
+    height: 4px;
+    background-color: #1E4D0F;
+    margin: 95px auto;
+    margin-bottom: 80px;
+}
