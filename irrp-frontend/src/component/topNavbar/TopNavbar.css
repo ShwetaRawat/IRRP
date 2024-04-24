@@ -1,0 +1,20 @@
+.TopNavbar {
+  position: fixed; /* Fixed position */
+  top: 0; /* Start from the top */
+  left: 320px; /* Start from the end of the navigation panel */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff; 
+  padding: 30px;
+  width: 74%;
+  height: 15px;
+}
+
+.TopNavbar .icon {
+  width: 50px;
+  padding: 55px;
+  height: auto;
+  margin-right: 40px;
+
+}
