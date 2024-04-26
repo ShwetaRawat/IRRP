@@ -36,5 +36,6 @@ body {
     position: fixed;
     top: 0;
     right: 0;
+    box-shadow: 0px 3px 3px rgb(170, 170, 170);
 }
 
