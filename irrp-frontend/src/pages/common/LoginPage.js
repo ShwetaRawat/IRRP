@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from '../../component/landingNavbar/Navbar';
-import LoginPage  from '../../component/loginPage/LoginPage';
+import Login  from '../../component/loginPage/login';
 
 function LoginPage() {
     return (
-      <div className="LoginPage">
-        <Navbar />
-        <LoginPage />
+      <div className="LoginPage"> 
+        <Navbar /> 
+        <Login />
       </div>
     );
   }

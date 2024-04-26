@@ -1,16 +1,16 @@
-import './LoginPage.css';
+import './login.css';
 import googlelogo from '../images/googlelogo.png';
 
-function LoginPage() {
-    return (
-      <div className="LoginPage"> 
-        <LoginPage>
+function Login() {
+    return ( 
+      <div className="Login"> 
+        <Login> 
           <div className="login-div container"> 
             <div className="profile-div row ">
               <div className="profile-admin col-sm"><p>Admin</p></div>
               < hr className="custom-hr" />
               <div className="profile-faculty col-sm"><p>Faculty</p></div>
-            </div>
+            </div> 
             <div className="login-details">
               <div className="google-login">
                 <div className="google-head"><h3>Welcome Back</h3></div>
@@ -42,9 +42,9 @@ function LoginPage() {
               </div>            
             </div>
           </div>
-        </LoginPage>
+        </Login>
       </div>
     );
   }
  
-export default LoginPage;
+export default Login;
