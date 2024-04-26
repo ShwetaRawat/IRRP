@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Inter; 
+}
+
+/* left panel */
+#left-panel {
+    width: 200px;
+    height: 100%;
+    background-color:#1E4D0F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+}
+
+#left-panel > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+
+
+#left-panel > ul  li{
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* top panel  */
+#top-menu {
+    width: calc(100% - 200px);
+    height: 50px;
+    background-color:#FFFFFF;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
