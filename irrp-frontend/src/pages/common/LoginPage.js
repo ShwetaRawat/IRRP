@@ -6,7 +6,7 @@ function LoginPage() {
     return (
       <div className="LoginPage"> 
         <Navbar /> 
-        <Login />
+        <Login /> 
       </div>
     );
   }
