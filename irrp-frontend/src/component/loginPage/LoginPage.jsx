@@ -1,4 +1,5 @@
 import './LoginPage.css';
+import googlelogo from '../images/googlelogo.png';
 
 function LoginPage() {
     return (
@@ -14,7 +15,7 @@ function LoginPage() {
               <div className="google-login">
                 <div className="google-head"><h3>Welcome Back</h3></div>
                 <div className=" btn google-login-button btn-container ">
-                <img src="../../../public/google-logo.png" className="google-logo" alt="google-logo" />
+                <img src={googlelogo} className="google-logo" alt="google-logo" />
                   <h4 className="" >Continue with Google</h4>
                 </div>
                 <div className="line-container">
