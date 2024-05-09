@@ -2,9 +2,13 @@
 import React from 'react';
 import './Header.css'; 
 import IGDTUW from '../images/IGDTUW.jpeg';
-
+import { Navigate } from "react-router-dom";
 
 function Header() {
+    const [goToLogin, setGoToLogin]=React.useState(false);
+    if (goToLogin){
+        return <Navigate to=".../../../LoginPage" />;
+    }
     return (
         <header className="Header">
             <div className="header-content">
@@ -16,7 +20,8 @@ function Header() {
                 </h1>
 
                 <p>Established by Govt. of Delhi vide Act 9 of 2012<br />ISO 9001:2015 Certified University</p>
-                <button className="login-button">Login</button>
+                <button className="login-button" onClick={()=>{setGoToLogin(true)}}>
+                    Login</button>
             </div>
             <div className="igdtuw-container">
                 <img src={IGDTUW} alt="IGDTUW" className="igdtuw" />

@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 // import Navbar from './Navbar'; Don't do this
 import Navbar from '../../component/landingNavbar/Navbar';
@@ -7,7 +8,6 @@ import Body from '../../component/landingBody/Body';
 import Steps from '../../component/landingSteps/Steps';
 function LandingPage() {
     return (
-      
       <div className="LandingPage">
         {/* LandingPage */}
         <Navbar />
@@ -16,11 +16,8 @@ function LandingPage() {
         <Header/>
         <Body/>
         <Steps/>
-        
       </div>
     );
   }
   
   export default LandingPage;
-
-
