@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Inter; 
+}
+
+/* left panel */
+#left-panel {
+    width: 200px;
+    height: 100%;
+    background-color:#1E4D0F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+}
+
+#left-panel > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+
+#left-panel > ul  li{
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#left-panel > ul {
+    margin-top: 15%;
+}
+
+/* icons  */
+.irrpLogo{
+    width:55%;
+    padding: 3% 5% 3% 15%;
+    margin:5% 5%;
+}
+
+.left-panelIcons{
+    width:10%;
+    vertical-align:text-top;
+    margin-right: 5%;
+    margin-left: 15%;   
+}
+
+/* top panel  */
+#top-menu {
+    width: calc(100% - 200px);
+    height: 50px;
+    background-color:#FFFFFF;
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-shadow: 0px 3px 3px rgb(170, 170, 170);
+}
+
+.top-panelIcons{
+    width: 3%;
+    height: 75%;
+    position:absolute;
+    top: 15%;
+}
+
+#homeicon{
+    left:5%;
+}
+
+#userprofile{   
+    right:7%;
+}
