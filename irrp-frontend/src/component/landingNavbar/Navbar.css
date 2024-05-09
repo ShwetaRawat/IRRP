@@ -2,10 +2,11 @@
 /* font */
 .Navbar, .Navbar a, .Navbar button {
     font-family: 'Inter', sans-serif; /* Apply the Inter font to all text within Navbar */
-    /* Other styles */
+ 
 }
 
 /* Set up the flex container for the entire navbar */
+
 .Navbar {
     display: flex;
     align-items: center; /* Vertically center the items */
